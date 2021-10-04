@@ -1,9 +1,18 @@
 import React from 'react';
+import { useServices } from '../../hooks/useServices';
+import Service from '../Service/Service';
 
 const Services = () => {
+    // Fetch API to load services
+    const [ services ] = useServices();
     return (
-        <div>
-            <h1>This is services</h1>
+        <div className="grid grid-cols-3 gap-3 m-5">
+            {
+                services.map(service => <Service
+                    key={service.id}
+                    service={service}
+                ></Service>)
+            }
         </div>
     );
 };

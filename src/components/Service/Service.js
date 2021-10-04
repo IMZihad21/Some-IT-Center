@@ -4,10 +4,10 @@ const Service = (props) => {
     const { name, cover, duration, price } = props.service;
     return (
         <div className="flex bg-gray-200 shadow-lg rounded-xl">
-            <div className="w-1/2 p-3">
+            <div className="w-1/3 p-3">
                 <img className="w-full rounded-xl" src={cover} alt={name} />
             </div>
-            <div className="w-1/2 m-auto">
+            <div className="w-2/3 m-auto">
                 <h1 className="text-2xl font-bold py-2">{name}</h1>
                 <p><span className="text-xl">Course Duration: </span><span className="text-red-700">{duration} Hours</span></p>
                 <p><span className="text-xl">Price: </span><span className="text-red-700">{price} USD</span></p>
