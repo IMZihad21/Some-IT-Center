@@ -11,7 +11,7 @@ const Service = (props) => {
                 <h1 className="text-2xl font-bold py-2">{name}</h1>
                 <p><span className="text-xl">Course Duration: </span><span className="text-red-700">{duration} Hours</span></p>
                 <p><span className="text-xl">Price: </span><span className="text-red-700">{price} USD</span></p>
-                <button className="rounded-lg bg-red-600 text-white hover:bg-red-500 px-4 py-2 m-2">More Details</button>
+                <button className="rounded-lg bg-red-600 text-white hover:bg-red-500 px-12 py-2 m-2">More Details</button>
             </div>
         </div>
     );
