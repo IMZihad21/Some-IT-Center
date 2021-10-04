@@ -1,5 +1,6 @@
 import React from 'react';
 import { useServices } from '../../hooks/useServices';
+import Banner from '../Banner/Banner';
 import Service from '../Service/Service';
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
     return (
         <div>
             <section>
-                <h1>something</h1>
+                <Banner></Banner>
             </section>
             <section className="grid grid-cols-2 gap-5 m-5 p-2">
                 {
