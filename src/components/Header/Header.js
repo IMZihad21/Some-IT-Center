@@ -6,7 +6,7 @@ const Header = () => {
     const activeNavStyle = "bg-red-500 hover:bg-red-500 text-white";
     return (
         <div className="bg-gray-200 rounded-xl shadow-md p-4 flex">
-            <i className="fas fa-building text-gray-600 text-2xl px-3 my-auto"></i>
+            <i className="fas fa-building text-gray-600 text-2xl px-3 my-auto animate-bounce"></i>
             <h1 className="text-2xl font-bold text-gray-600">Some IT Center</h1>
             <div className="ml-auto mr-4 my-auto">
                 <NavLink className={navStyle} activeClassName={activeNavStyle} to="/home">Home</NavLink>
