@@ -11,7 +11,7 @@ import LiveSupport from './components/LiveSupport/LiveSupport';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/Some-IT-Center'>
         <Header></Header>
         <Switch>
           <Route exact path="/">
